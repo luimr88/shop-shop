@@ -14,7 +14,6 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
-import CartPage from './pages/CartLanding/CartPage';
 import Success from './pages/Success';
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from './pages/OrderHistory';
@@ -57,10 +56,6 @@ function App() {
               <Route
                 path="/signup"
                 element={<Signup />}
-              />
-              <Route
-                path="/cartpage"
-                element={<CartPage />}
               />
               <Route
                 path="/orderHistory"
